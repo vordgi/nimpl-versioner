@@ -57,11 +57,17 @@ module.exports = {
 ```
 
 `git.token` - [personal access token](https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api#authenticating-with-a-personal-access-token) for the github project;
+
 `git.userName` and `git.project` - user name and project key in github;
+
 `versionsDir` - the subpath into which versions will be recorded;
+
 `versions` - the list of versions for which files need to be cloned;
+
 `versions[number].ref` - the commit hash or branch of the required version;
+
 `versions[number].version` - version key, by which files will be saved;
+
 `aliases` - object of aliases for automatic import replacement.
 
 ## License
